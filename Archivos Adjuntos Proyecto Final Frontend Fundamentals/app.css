@@ -1,7 +1,264 @@
-/*reglas generales*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Raleway", sans-serif;
+}
 
-/*Media Query*/
+img {
+    width: 100%;
+    display: block;
+}
 
-/** Reescribir colores */
+header h1 span {
+    color: #037BC0;
+}
 
-/** Productos */
+header {
+    padding: 1.5rem 0;
+}
+
+header h1,
+h2 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair", sans-serif;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+nav#nav-main ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+main {
+    padding: 2% 5%;
+}
+
+span.precio {
+    display: block;
+}
+
+section#seccion-1,
+section#seccion-2,
+section#seccion-3,
+section.categorias {
+    margin: 2.5rem 0;
+}
+
+button {
+    padding: 8px 13px;
+    box-shadow: 1px 2px 5px #002f60;
+    margin-top: 13px;
+    background: #41ff41;
+    border-radius: 4px;
+    color: #000650;
+    font-weight: 600;
+    font-size: large;
+}
+
+span.precio {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+span.precio {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/***************** Productos *********************/
+
+/* SECCIÓN 1 */
+article#producto-1 {
+    display: flex;
+    align-items: center;
+    /* gap: 30px; */
+    box-shadow: 2px 3px 6px 1px #00000061;
+}
+
+.columna-1 {
+    flex-basis: 60%;
+}
+
+.columna-2 {
+    flex-basis: 40%;
+}
+
+article,
+.columna-2 {
+    background: #1586fb;
+    color: white;
+    text-align: center;
+}
+
+Rene Alejandro Cerón to Everyone 9:26 PM article {
+    background: #1586fb;
+    color: white;
+    text-align: center;
+}
+
+.box-descripcion,
+.columna-2,
+#box-descripcion {
+    padding: 1.5rem;
+}
+
+nav#nav-main {
+    background: #1586fb;
+    padding: 10px;
+    box-shadow: 0px 9px 4px 2px #000;
+}
+
+nav#nav-main a {
+    color: white;
+    text-decoration: none;
+}
+
+section#seccion-2 {
+    display: flex;
+    gap: 30px;
+}
+
+/* SECCIÓN 2 */
+
+section#seccion-2 {
+    display: flex;
+    gap: 30px;
+}
+
+article#producto-2,
+article#producto-3 {
+    flex-basis: 50%;
+}
+
+/* SECCIÓN 3 */
+
+section#seccion-3 {
+    display: flex;
+    gap: 30px;
+}
+
+article#producto-4,
+article#producto-5,
+article#producto-6 {
+    flex-basis: 33.33333%;
+}
+
+/* SECCIÓN CATEGORÍAS */
+
+section.categorias {
+    display: flex;
+    gap: 30px;
+}
+
+section.categorias h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #1586fb;
+    font-size: 1.5rem;
+}
+
+div.oficina,
+div.hogar,
+div.cocina {
+    flex-basis: 33.33333%;
+    box-shadow: 0 0 2px #1586fb;
+    padding: 0px;
+    border-radius: 10px 10px 0 0;
+    background: #1586fb1f;
+}
+
+div.oficina img,
+div.hogar img,
+div.cocina img {
+    border-radius: 10px 10px 0 0;
+}
+
+section#footer {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+}
+
+div#box-categorias,
+div#box-nosotros,
+div#box-soporte {
+    flex-basis: 33.33333%;
+}
+
+section#footer {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+    padding-top: 1.5rem;
+}
+
+/* SECCIÓN FOOTER */
+section#footer {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+    padding-top: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    background: #3f3f3f;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+section#disclaimer {
+    background: #1e1e1e;
+    padding: 15px 1rem;
+}
+
+<article class="hero-image"><div><h1>Tienda en línea con Flexbox</h1></div></article>
+
+/* HERO IMAGE */
+.hero-image {
+    min-height: 50vh;
+    background-image: url(principal.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+    background-position: center;
+    background-size: cover;
+
+    .hero-image div {
+        min-height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0000009c;
+        text-align: center;
+    }
